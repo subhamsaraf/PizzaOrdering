@@ -8,8 +8,12 @@ namespace Pizza_Ordering
 {
     public class Menu
     {
-        public PizzaDetails Pizza;
-        public readonly List<string> Pizzas;
-
+        //public PizzaDetails Pizza;
+        public List<PizzaDetails> Pizzas { get; private set; }
+        public Dictionary<string, PizzaDetails> menu = new Dictionary<string, PizzaDetails>()
+        {
+            { "panner pizza",new PizzaDetails() },
+            { "nons",new PizzaDetails()}
+        };
     }
 }

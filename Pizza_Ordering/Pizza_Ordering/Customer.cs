@@ -10,9 +10,9 @@ namespace Pizza_Ordering
     {
         Menu menu = new Menu();
 
-        public string Select()
+        public PizzaDetails Select()
         {
-            return menu.Pizzass;
+            return null;
         }
     }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza_Ordering", "Pizza_Ordering\Pizza_Ordering.csproj", "{1F62B84D-443E-4367-BD5A-21E0536937FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrdering", "Pizza_Ordering\PizzaOrdering.csproj", "{1F62B84D-443E-4367-BD5A-21E0536937FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrdering_Fixtures", "Pizza_Ordering_Fixtures\PizzaOrdering_Fixtures.csproj", "{7E56011F-D725-4221-B111-26420FCB08EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F62B84D-443E-4367-BD5A-21E0536937FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F62B84D-443E-4367-BD5A-21E0536937FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F62B84D-443E-4367-BD5A-21E0536937FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E56011F-D725-4221-B111-26420FCB08EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E56011F-D725-4221-B111-26420FCB08EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E56011F-D725-4221-B111-26420FCB08EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E56011F-D725-4221-B111-26420FCB08EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

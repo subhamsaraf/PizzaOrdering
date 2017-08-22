@@ -8,8 +8,8 @@ namespace Pizza_Ordering
 {
     public class PizzaDetails
     {
-        public string PizzaType { get; }
-        public string PizzaName { get; }
-        public double PizzaPrice { get; }
+        public string PizzaType { get; set; }
+        public string PizzaName { get; set; }
+        public double PizzaPrice { get; set; }
     }
 }

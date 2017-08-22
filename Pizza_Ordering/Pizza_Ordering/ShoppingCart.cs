@@ -8,29 +8,36 @@ namespace Pizza_Ordering
 {
     public class ShoppingCart
     {
-        private List<string> _pizzaInCart = new List<string>();
+        private List<PizzaDetails> _pizzaInCart = new List<PizzaDetails>();
 
 
-        public void Add()
+        public void Add(PizzaDetails pizza)
         {
-            Customer customer = new Customer();
-            _pizzaInCart.Add(customer.Select());
+            //Customer customer = new Customer();
+            _pizzaInCart.Add(pizza);
         }
 
 
-        public List<string> View()
+        public List<PizzaDetails> View()
         {
             return _pizzaInCart;
         }
 
-
-        public void Order()
+        public void Remove(PizzaDetails pizza)
         {
-            if (_pizzaInCart.Count > 2)
-            {
-                var totalAmount = _pizzaInCart
-            }
+            _pizzaInCart.Remove(pizza);
+        }
 
+        public string Order()
+        {
+            if (_pizzaInCart.Count >= 2)
+            {
+                return $"order for {_pizzaInCart.Count} Pizza Confirmed";
+            }
+            else
+            {
+                return "Add Items To cart, to reach minimum Pizza order";
+            }
         }
     }
 }
